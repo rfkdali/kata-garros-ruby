@@ -84,4 +84,4 @@ def sequence_jeu
 		2 => j2_gagne_x_fois(3)
 	} 
 	  puts sequence[2]
-end
+end 
