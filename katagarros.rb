@@ -22,9 +22,6 @@ class KatagarrosTest < Minitest::Unit::TestCase
 	def test_points_gagnes_j2
 		assert_equal [[15,0]], j1_gagne_x_fois(1)	
 	end
-	def test_sequence_jeu
-		assert_equal [[15,0]], sequence_jeu
-	end
 
 end
 
@@ -77,11 +74,3 @@ def j2_gagne_x_fois(x)
 	  x
 	end
 end
-
-def sequence_jeu
-	sequence = {
-		1 => j1_gagne_x_fois(1),
-		2 => j2_gagne_x_fois(3)
-	} 
-	  puts sequence[2]
-end 
